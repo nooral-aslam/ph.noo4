@@ -1,11 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>My First Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بورتفوليو نور</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #2c3e50;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 { margin: 0; font-size: 2.5rem; color: #3498db; }
+        header p { font-size: 1.2rem; color: #bdc3c7; }
+        
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .section {
+            background: #252525;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        h2 { border-bottom: 2px solid #3498db; padding-bottom: 0.5rem; display: inline-block; }
+        
+        .btn {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .btn:hover { background: #2980b9; }
+        
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #111;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to my website</h1>
-    <p>This website is hosted for free on GitHub Pages.</p>
+
+    <header>
+        <h1>مرحباً، أنا نور</h1>
+        <p>طالب صيدلة | مطور ويب مبتدئ | صانع محتوى</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>من أنا</h2>
+            <p>أنا طالب في المرحلة الرابعة بكلية الصيدلة، ولدي شغف كبير بالتقنية والبرمجة. أعمل حالياً على تطوير مشاريع تخدم الطلاب وتسهل العملية التعليمية.</p>
+        </div>
+
+        <div class="section">
+            <h2>مشاريعي</h2>
+            <div class="project">
+                <h3>1. مشروع RX التعليمي</h3>
+                <p>منصة تعليمية على تليجرام تهدف لشرح المواد الصيدلانية بطريقة مبسطة وتفاعلية.</p>
+                <a href="#" class="btn">رابط المشروع</a>
+            </div>
+            <br>
+            <div class="project">
+                <h3>2. موقعي الشخصي</h3>
+                <p>هذا الموقع الذي تتصفحه الآن، قمت ببنائه وتطويره بنفسي.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>تواصل معي</h2>
+            <p>يمكنك مراسلتي عبر البريد الإلكتروني أو متابعتي على المنصات التالية:</p>
+            <ul>
+                <li>LinkedIn: @Noor</li>
+                <li>GitHub: @Noor</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2026 نور</p>
+    </footer>
+
 </body>
 </html>
